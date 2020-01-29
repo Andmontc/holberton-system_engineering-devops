@@ -22,6 +22,6 @@
 - Tree
 - Life is a series of commas, not periods
 
-** Author**
+**Author**
 
 Oscar Andres Montes  
