@@ -46,5 +46,5 @@ In this project I learned how to navigate,  how to manipulate files, using  man 
 
 holberton.mgc: A magic file that can be used with the command file to detect Holberton data files.
 
-** Author **
-Oscar Andres Montess
+**Author**
+Oscar Andres Montes.
