@@ -4,7 +4,7 @@
 
 - Shell basics 
 - Shell Permissions
-
+- Shell I/O Redirections and filters
 
 **Author**
 
