@@ -5,6 +5,7 @@
 - Shell basics 
 - Shell Permissions
 - Shell I/O Redirections and filters
+- Shell Variables and expansions
 
 **Author**
 
