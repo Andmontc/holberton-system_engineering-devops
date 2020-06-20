@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #Awk command
-awk '{print$1,$9}'' apache-acess.log
+awk '{print $1,$9}' apache-acess.log
