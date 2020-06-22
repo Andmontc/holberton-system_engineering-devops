@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #scrpit to create a file , run a loop and kill it
-echo "$$" > /var/run/holbertonscript.pid
+touch /var/run/holbertonscript.pid
 x=1
 while [ $x ]
 do
