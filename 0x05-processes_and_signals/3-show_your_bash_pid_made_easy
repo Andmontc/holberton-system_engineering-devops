@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#scrpit to show all bash processes by all users
+pgrep -l bash
