@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#scrpit to show all processes by all users
+ps aux -e
