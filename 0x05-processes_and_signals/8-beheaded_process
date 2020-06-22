@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #scrpit to kill with a signal
-pkill -f SIGKILL 7-highlander
+pkill -f -SIGKILL 7-highlander
