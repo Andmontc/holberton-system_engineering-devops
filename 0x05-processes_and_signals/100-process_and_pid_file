@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #scrpit to create a file , run a loop and kill it
-touch /var/run/holbertonscript.pid
+echo "$$" > /var/run/holbertonscript.pid
 x=1
 while [ $x ]
 do
-	trap "echo I hate the kill command; -rm -f /var/run/holbertonscript.pid; exit" SIGTERM
+	trap "echo I hate the kill command; rm -f /var/run/holbertonscript.pid; exit" SIGTERM
 	trap "echo Y U no love me?!" SIGINT
 	trap "rm -f /var/run/holbertonscript.pid; exit" SIGQUIT
 	echo "To infinity and beyond"
