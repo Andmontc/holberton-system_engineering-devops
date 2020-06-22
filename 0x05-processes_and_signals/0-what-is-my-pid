@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#scrpit to show my own PID
+echo $$
