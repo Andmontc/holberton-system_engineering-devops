@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
-#include <sys/types.h>
+#include <stdlib.h>
 #include <unistd.h>
 /**
  * infinite_while- infinite loop
