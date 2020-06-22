@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#scrpit to loop infinite and beyond
+x=1
+while [ $x ]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
