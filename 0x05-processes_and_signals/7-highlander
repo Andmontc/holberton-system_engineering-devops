@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#scrpit to loop infinite and beyond and trap a signal
+x=1
+while [ $x ]
+do
+	echo "To infinity and beyond"
+	trap "I am invincible!!!" SIGTERM
+	sleep 2
+done
