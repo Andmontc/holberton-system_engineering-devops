@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#scrpit to show all bash processes by all users
+# shellcheck disable=SC2009
+ps -auxf | grep bash
