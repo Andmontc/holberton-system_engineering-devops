@@ -1,4 +1,5 @@
-#SSH configuration file to connect to a server without typing a password
+#!/usr/bin/env bash
+#SSH configuration file so that you can connect to a server without typing a password
 
 file_line { 'Identityfile':
   ensure => present,
@@ -9,6 +10,6 @@ file_line { 'Identityfile':
 file_line { ' password off':
   ensure => present,
   path   => '/etc/ssh/ssh_config',
-  line   => 'PasswordAuthentication no'
+  line   => 'PasswordAuthentication no',
   match  => 'PasswordAuthentication yes',
 }
