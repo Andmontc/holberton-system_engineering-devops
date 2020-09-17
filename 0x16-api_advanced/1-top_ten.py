@@ -14,4 +14,4 @@ def top_ten(subreddit):
         return 0
     posts = response.json().get('data')
     for post in posts.get("children"):
-        print (post.get('data').get('title'))
+        print(post.get('data').get('title'))
